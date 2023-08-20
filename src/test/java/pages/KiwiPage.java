@@ -9,9 +9,7 @@ import utils.Driver;
 import utils.ReusableMethods;
 
 public class KiwiPage {
-    @FindBy(
-            xpath = "//*[@text='Continue as a guest']"
-    )
+    @FindBy(id = "com.skypicker.main:id/secondary_button")
     public WebElement misafirOlarakDevamEt;
     @FindBy(
             xpath = "//*[@class='android.widget.EditText']"
